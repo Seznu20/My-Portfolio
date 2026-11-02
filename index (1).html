@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seznu Tabassum | AI Researcher & Deep Learning Enthusiast</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- =========================================================
+     SCROLL PROGRESS BAR
+     (thin bar at the very top that fills as the page scrolls,
+     matching the reference format)
+========================================================= -->
+
+<div id="progress" class="scroll-progress"></div>
+
+
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
+
+<div class="background-grid"></div>
+
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+<div class="glow glow-3"></div>
+
+
+<!-- =========================================================
+     NAVBAR
+     NOTE: put your photo file in the same folder as this
+     index.html and name it "profile.jpg" (or change the
+     src below to your file name). If no image is found it
+     will automatically fall back to an "ST" initials badge.
+========================================================= -->
+
+<header class="navbar" id="navbar">
+
+    <div class="container">
+
+        <a href="#home" class="logo">
+            <img
+                src="seznu1.jpg"
+                alt="Seznu Tabassum"
+                class="logo-img"
+                onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-fallback',textContent:'ST'}));"
+            >
+        </a>
+
+        <!--  3-DOT BUTTON -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+            &#8942;
+        </button>
+
+        <div class="nav-right">
+
+            <nav class="nav-links">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#interests" class="nav-link">Interests</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contribution" class="nav-link">Contribution</a>
+                <a href="#skills" class="nav-link">Skills</a>
+
+            </nav>
+
+            <a href="#contact" class="nav-contact">
+                Let's Connect
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO SECTION
+========================================================= -->
+
+<section id="home" class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Open to Research & Opportunities
+            </div>
+
+            <p class="hero-small">
+                HELLO, I'M
+            </p>
+
+            <h1 class="hero-title">
+                Seznu Tabassum <span class="gradient-text">. </span>
+            </h1>
+
+            <h2 class="hero-subtitle">
+                AI Researcher <span>&</span> Deep Learning Enthusiast
+            </h2>
+
+            <p class="hero-description">
+                Exploring the intersection of
+                <span class="highlight">Artificial Intelligence</span>,
+                <span class="highlight">Deep Learning</span>,
+                and <span class="highlight">Computer Vision</span>
+                to build intelligent and meaningful solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work
+                    <span>↗</span>
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Let's Connect
+                </a>
+
+            </div>
+            <div class="about-profile-socials">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=seznutabassum20@gmail.com" target="_blank" class="about-social-btn" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://github.com/Seznu20/" target="_blank" class="about-social-btn" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/seznu-tabussum-8b4a7a335/" target="_blank" class="about-social-btn" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+         <div class="hero-image">
+            <img src="img1.jpeg" alt="Seznu Tabassum">
+        </div>
+
+        
+
+    </div>
+
+
+    <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"></div>
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT SECTION
+     (profile layout: photo + identity + socials on the left,
+     professional summary + Download CV on the right)
+========================================================= -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">01- ABOUT</p>
+
+            <h2>
+                About
+                <span class="gradient-text">me.</span>
+            </h2>
+
+            <p>
+                Research-driven, curious, and passionate about technology.
+            </p>
+
+        </div>
+
+
+        <div class="about-profile-grid">
+
+            <!-- LEFT: PHOTO + IDENTITY -->
+            <div class="about-profile-left reveal">
+
+                <div class="about-profile-photo">
+                    <img src="img2.jpeg" alt="Seznu Tabassum">
+                        <div class="figure-status">
+                            <span class="status-dot"></span>
+                            <span>Available for &amp; work</span>
+                        </div>
+
+                </div>
+
+                <h3 class="about-profile-name">Seznu Tabassum</h3>
+
+                <p class="about-profile-title">AI Researcher &amp; Deep Learning Enthusiast</p>
+
+                <p class="about-profile-org">International Islamic University Chittagong (IIUC)</p>
+
+
+
+            </div>
+
+
+            <!-- RIGHT: SUMMARY + CV + AIM / APPROACH -->
+            <div class="about-profile-right reveal">
+
+                <div class="about-summary-box">
+
+                    <div class="about-block-heading">
+                        <span class="about-block-icon"><i class="fa-regular fa-id-card"></i></span>
+                        Professional Summary
+                    </div>
+
+                    <p class="about-summary-text">
+                        Seznu Tabassum is an aspiring AI researcher and developer
+                        interested in solving real-world problems through
+                        intelligent computational methods. Her work focuses on
+                        developing deep learning models, understanding computer
+                        vision problems, and exploring efficient solutions for
+                        practical applications. She believes that good technology
+                        should not only achieve high performance but should also
+                        be meaningful, efficient, and useful.
+                    </p>
+
+                    <!-- DOWNLOAD CV (moved here from the hero section) -->
+                    <a href="MyCV.pdf" download="Seznu_Tabassum_CV.pdf" class="about-cv-btn">
+                        <i class="fa-regular fa-file-lines"></i>
+                        Download CV
+                    </a>
+
+                </div>
+
+
+                <div class="about-block-heading about-block-heading-2">
+                    <span class="about-block-icon"><i class="fa-solid fa-compass"></i></span>
+                    Aim &amp; Approach
+                </div>
+
+                <div class="about-mini-grid">
+
+                    <div class="about-mini-card">
+                        <span class="about-mini-icon"><i class="fa-solid fa-bullseye"></i></span>
+                        <div>
+                            <h4>My Aim</h4>
+                            <p>
+                                To become a skilled AI researcher and contribute to
+                                innovative research in Artificial Intelligence,
+                                Deep Learning, and Computer Vision.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-mini-card">
+                        <span class="about-mini-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                        <div>
+                            <h4>My Approach</h4>
+                            <p>
+                                Learn continuously, experiment with ideas, evaluate
+                                results carefully, and transform research concepts
+                                into practical solutions.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EDUCATION
+     (compact icon cards: SSC, HSC, BSc side by side)
+========================================================= -->
+
+<section id="education" class="section section-alt">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">02-EDUCATION</p>
+
+            <h2>
+                My academic
+                <span class="gradient-text">journey.</span>
+            </h2>
+
+            <p>
+                Milestones from school to university.
+            </p>
+
+        </div>
+
+
+        <div class="edu-mini-grid">
+
+            <div class="edu-mini-card reveal">
+
+                <div class="edu-mini-top">
+                    <span class="edu-mini-icon"><i class="fa-solid fa-school"></i></span>
+                    <div>
+                        <h4>Secondary School Certificate (SSC)</h4>
+                        <p class="edu-mini-org">Al Haz Yakub Ali Girls High School &amp; Collage</p>
+                    </div>
+                </div>
+
+                <div class="edu-mini-meta">
+                    <span class="edu-mini-year">2018</span>
+                    <span class="gpa-badge">GPA 4.67</span>
+                </div>
+
+                <button type="button"
+                    class="edu-mini-cert-btn cert-btn"
+                    data-cert="ssc.jpeg" data-title="SSC Certificate">
+                    View Certificate
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+
+            <div class="edu-mini-card reveal">
+
+                <div class="edu-mini-top">
+                    <span class="edu-mini-icon"><i class="fa-solid fa-book-open"></i></span>
+                    <div>
+                        <h4>Higher Secondary Certificate (HSC)</h4>
+                        <p class="edu-mini-org">Mohila College Chittagong</p>
+                    </div>
+                </div>
+
+                <div class="edu-mini-meta">
+                    <span class="edu-mini-year">2020</span>
+                    <span class="gpa-badge">GPA 5.00</span>
+                </div>
+
+                <button type="button"
+                    class="edu-mini-cert-btn cert-btn"
+                    data-cert="Hsc.jpeg" data-title="HSC Certificate">
+                    View Certificate
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+
+            <div class="edu-mini-card reveal">
+
+                <div class="edu-mini-top">
+                    <span class="edu-mini-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <div>
+                        <h4>Bachelor of Science (BSc)</h4>
+                        <p class="edu-mini-org">International Islamic University Chittagong (IIUC)</p>
+                    </div>
+                </div>
+
+                <div class="edu-mini-meta">
+                    <span class="gpa-badge">Undergraduate</span>
+                </div>
+
+                <button type="button"
+                    class="edu-mini-cert-btn cert-btn"
+                    data-cert="bsc-certificate.jpg" data-title="Certificate does not published yet">
+                    View Certificate
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     INTERESTS
+========================================================= -->
+
+<section id="interests" class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">03-INTERESTS</p>
+
+            <h2>
+                Things I love
+                <span class="gradient-text">exploring.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="interest-grid">
+
+            <div class="interest-card reveal">
+                <span class="interest-number">01</span>
+                <div class="interest-icon">◈</div>
+                <h3>Deep Learning</h3>
+                <p>
+                    Neural networks, representation learning,
+                    model development and experimentation.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+
+            <div class="interest-card reveal">
+                <span class="interest-number">02</span>
+                <div class="interest-icon">◉</div>
+                <h3>Computer Vision</h3>
+                <p>
+                    Image understanding, segmentation,
+                    classification and visual intelligence.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+
+            <div class="interest-card reveal">
+                <span class="interest-number">03</span>
+                <div class="interest-icon">⬡</div>
+                <h3>Medical AI</h3>
+                <p>
+                    Applying AI and computer vision to
+                    meaningful healthcare problems.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+
+            <div class="interest-card reveal">
+                <span class="interest-number">04</span>
+                <div class="interest-icon">⌘</div>
+                <h3>AI Research</h3>
+                <p>
+                    Exploring new architectures, experiments,
+                    evaluation and research methodology.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+
+            <div class="interest-card reveal">
+                <span class="interest-number">05</span>
+                <div class="interest-icon">◇</div>
+                <h3>Web Development</h3>
+                <p>
+                    Building clean, responsive and modern
+                    digital experiences.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+
+            <div class="interest-card reveal">
+                <span class="interest-number">06</span>
+                <div class="interest-icon">∞</div>
+                <h3>Problem Solving</h3>
+                <p>
+                    Breaking complex problems into simple,
+                    understandable and effective solutions.
+                </p>
+                <div class="interest-line"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CO-CURRICULAR
+========================================================= -->
+
+<section id="activities" class="section section-alt">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">04-BEYOND ACADEMICS</p>
+
+            <h2>
+                Co-curricular <span class="gradient-text">activities & Achievements</span>
+            </h2>
+
+        </div>
+
+
+        <!-- ACTIVITY FILTER TABS -->
+        <div class="filter-tabs reveal" role="tablist" aria-label="Filter activities">
+
+            <button type="button" class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button type="button" class="filter-btn" data-filter="certification">
+                Certification
+            </button>
+
+            <button type="button" class="filter-btn" data-filter="volunteer">
+                Volunteer
+            </button>
+
+            <button type="button" class="filter-btn" data-filter="hackathon">
+                Hackathon
+            </button>
+
+        </div>
+
+
+        <div class="timeline" id="activitiesTimeline">
+
+            <div class="timeline-item reveal" data-category="volunteer">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>ACTIVITY 01</span>
+
+                    <h3>
+                        Teacher Assistant
+                    </h3>
+
+                    <p>
+                        International Islamic University,Chittagong
+                        
+                    </p>
+                    <p>Assist in teaching</p>
+                        <p>1.Machine Learning(ML)</p>
+                        <p>2.Computer Graphics(CG)</p>
+                       <p>3.Engineering Drawing(ME)</p>
+
+                </div>
+
+            </div>
+            <div class="timeline-item reveal" data-category="certification">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>ACTIVITY 02</span>
+
+                    <h3>
+                        Advanced Digital Marketing (Online)
+                    </h3>
+
+                    <p>
+                        Completed an Advanced Digital Marketing (Online) course from Edufuture IT & Language Training Institute.
+                                The certificate was awarded on 19 August 2022 in recognition of successful completion of the professional training program.
+                    </p>
+                    <a href="edu.pdf" download="Advanced Digital Marketing .pdf" class="btn btn-secondary btn-cv">
+                       View Certificate
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+                     <div class="timeline-item reveal" data-category="certification">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>ACTIVITY 03</span>
+
+                    <h3>
+                        Python Journey Complete-From Zero to Hero!
+                    </h3>
+
+                    <p>
+                        Successfully completed the "Mastering Python: From Zero to Hero" course by Ostad! Grateful to Pranta Khandakar for the excellent guidance through Python fundamentals to advanced concepts.
+                    </p>
+                    <a href="Ostad.pdf" download="Python Journey Complete-From Zero to Hero!.pdf" class="btn btn-secondary btn-cv">
+                       View Certificate
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal" data-category="volunteer">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>ACTIVITY 04</span>
+
+                    <h3>
+                       Ambassador of ICT Olympiad
+                    </h3>
+
+                    <p>
+                        Represented ICT Olympiad Bangladesh as an Ambassador and promoted its activities among students and academic communities.
+                    </p>
+                    <a href="Ict Olympiad.pdf" download="Ambassador of ICT Olympiad.pdf" class="btn btn-secondary btn-cv">
+                       View Certificate
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <p class="timeline-empty" id="activitiesEmpty">
+                No activities in this category yet.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECTS
+========================================================= -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">05-PROJECTS</p>
+
+            <h2>
+                Work that made <span class="gradient-text">an impact.</span>
+            </h2>
+
+            <p>
+                Selected projects, experiments and research work.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 01 -->
+
+            <article class="project-card featured reveal">
+
+                <div class="project-top">
+
+                    <span class="project-label">
+                        RESEARCH PROJECT
+                    </span>
+
+                    <a href="https://github.com/" target="_blank"
+                       class="project-arrow">
+                        ↗
+                    </a>
+
+                </div>
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>
+                    PRISM-Net
+                </h3>
+
+                <p class="project-subtitle">
+                    Pyramid Residual Integration and
+                    Separable Multi-scale U-Net
+                </p>
+
+                <p>
+                    A deep learning architecture designed for
+                    colorectal polyp segmentation using a
+                    pretrained ResNet34 encoder, ASPP-based
+                    multi-scale features, attention-gated skip
+                    connections and a depthwise-separable decoder.
+                </p>
+
+                <div class="tech-stack">
+
+                    <!-- <span>PyTorch</span> -->
+                    <span>ResNet34</span>
+                    <span>ASPP</span>
+                    <span>Attention</span>
+                    <span>U-Net</span>
+
+                </div>
+
+                <div class="paper-progress" data-progress="80">
+                    <div class="ring">
+                        <svg viewBox="0 0 64 64">
+                            <circle class="ring-bg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                            <circle class="ring-fg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                        </svg>
+                        <span class="ring-text">0%</span>
+                    </div>
+                    <div class="ring-info">
+                        <strong>Paper Progress</strong>
+                        <small>Manuscript writing in progress</small>
+                    </div>
+                </div>
+
+                <div class="project-footer">
+
+                    <span>
+                        Medical Image Segmentation
+                    </span>
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub ↗
+                    </a>
+                    <a href="papers/Prism-Net.pdf" download="PRISM-UNet_Paper.pdf" class="paper-link">
+                     Download Paper ↓
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 02 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-top">
+
+                    <span class="project-label">
+                        MACHINE LEARNING
+                    </span>
+                    <a href="https://github.com/" target="_blank"
+                       class="project-arrow">
+                        ↗
+                    </a>
+
+                  
+
+                </div>
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>
+                    STAR
+                </h3>
+
+                <p class="project-subtitle">
+                    Station-Aware Attention Network
+                </p>
+
+                <p>
+                    A station-aware deep learning framework
+                    for PM2.5 forecasting across multiple
+                    monitoring stations in Bangladesh.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Python</span>
+                    <span>Deep Learning</span>
+                    <span>Attention</span>
+                    <span>Forecasting</span>
+
+                </div>
+
+                <div class="paper-progress" data-progress="100">
+                    <div class="ring">
+                        <svg viewBox="0 0 64 64">
+                            <circle class="ring-bg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                            <circle class="ring-fg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                        </svg>
+                        <span class="ring-text">0%</span>
+                    </div>
+                    <div class="ring-info">
+                        <strong>Paper Progress</strong>
+                        <small>Manuscript writing in progress</small>
+                    </div>
+                </div>
+
+                <div class="project-footer">
+
+                    <span>
+                        Environmental AI
+                    </span>
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub ↗
+                    </a>
+                     <a href="papers/STAR.pdf" download="PRISM-UNet_Paper.pdf" class="paper-link">
+                     Download Paper ↓
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 03 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-top">
+
+                    <span class="project-label">
+                        COMPUTER VISION
+                    </span>
+
+                    <a href="https://github.com/" target="_blank"
+                       class="project-arrow">
+                        ↗
+                    </a>
+
+                </div>
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>
+                    MBL-UNet
+                </h3>
+
+                <p class="project-subtitle">
+                    Deep Learning Based Image Classification
+                </p>
+
+                <p>
+                    A computer vision project for distinguishing
+                    normal and polyp images using a lightweight
+                    convolutional neural network.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>TensorFlow</span>
+                    <span>Keras</span>
+                    <span>CNN</span>
+                    <span>Grad-CAM</span>
+
+                </div>
+
+                <div class="paper-progress" data-progress="50">
+                    <div class="ring">
+                        <svg viewBox="0 0 64 64">
+                            <circle class="ring-bg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                            <circle class="ring-fg" cx="32" cy="32" r="28" pathLength="100"></circle>
+                        </svg>
+                        <span class="ring-text">0%</span>
+                    </div>
+                    <div class="ring-info">
+                        <strong>Paper Progress</strong>
+                        <small>Writing in progress</small>
+                    </div>
+                </div>
+
+                <div class="project-footer">
+
+                    <span>
+                        Medical AI
+                    </span>
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub ↗
+                    </a>
+
+                    <a href="MBL-UNet" class="paper-link"
+                    onclick="alert('Still not completed writing.'); return false;">
+                              Download Paper ↓
+                    </a>
+ 
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ACHIEVEMENTS / PAPERS
+========================================================= -->
+
+<section id="achievements" class="section section-alt">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">06-ACHIEVEMENTS</p>
+
+            <h2>
+                Research &
+                <span class="gradient-text">achievements.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="achievement-wrapper">
+
+
+            <div class="achievement-card reveal">
+
+                <div class="achievement-icon">
+                    ↗
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-type">
+                        RESEARCH PAPER
+                    </span>
+
+                    <h3>
+                        STAR: Station-Aware Attention Network
+                        for PM2.5 Forecasting in Bangladesh
+                    </h3>
+
+                    <p>
+                        Research work focusing on multi-station
+                        PM2.5 forecasting using station-aware
+                        attention mechanisms.
+                    </p>
+
+                    <div class="achievement-meta">
+
+                        <span>2026</span>
+
+                        <a href="papers/STAR.pdf" target="_blank">
+                            View Paper ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card reveal">
+
+                <div class="achievement-icon">
+                    ↗
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-type">
+                        THESIS / RESEARCH
+                    </span>
+
+                    <h3>
+                        PRISM-Net for Colorectal
+                        Polyp Segmentation
+                    </h3>
+
+                    <p>
+                        Research on efficient deep learning
+                        architecture design for accurate
+                        medical image segmentation.
+                    </p>
+
+                    <div class="achievement-meta">
+
+                        <span>2026</span>
+
+                        <a href="papers/Prism-Net.pdf" target="_blank">
+                            View Research ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     WEB DEVELOPMENT PROJECTS
+========================================================= -->
+
+<section id="web-projects" class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">07-WEB PROJECTS</p>
+
+            <h2>
+                Web development
+                <span class="gradient-text">projects.</span>
+            </h2>
+
+            <p>
+                Websites and web applications I have designed and built.
+            </p>
+
+        </div>
+
+
+        <div class="web-projects-grid">
+
+            <!-- WEB PROJECT 01 -->
+            <article class="web-card reveal">
+
+                <img src="logo2.png" alt="Project 1" class="web-card-img">
+
+                <div class="web-card-body">
+
+                    <span class="web-card-label">FULL-STACK</span>
+
+                    <h3>Ice-Cream Shop</h3>
+
+                    <p>
+                    Developed an e-commerce web application using PHP, MySQL, HTML, CSS, and JavaScript, featuring user authentication, product
+                        management, shopping cart, wishlist, checkout, order management, search, and admin panel.
+
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHPL</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="web-card-links">
+                        <a href="https://github.com/" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="http://127.0.0.1:5501/templates/index.html" onclick="alert('Live demo coming soon.'); return false;">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- WEB PROJECT 02 -->
+            <article class="web-card reveal">
+
+                <img src="Bus.jpg" alt="Project 2" class="web-card-img">
+
+                <div class="web-card-body">
+
+                    <span class="web-card-label">FULL-STACK</span>
+
+                    <h3>Bus Ticket reservation system </h3>
+
+                    <p>
+                    • Developed a bus reservation system using Python, Flask, and Oracle 10g,implementing schedule, passenger, and booking management features
+
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Oracle 10g</span>
+                    </div>
+
+                    <div class="web-card-links">
+                        <a href="https://github.com/Seznu20/Bus_Reservation_System" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        
+                        <a href="http://127.0.0.1:5501/templates/index.html" onclick="alert('Live demo coming soon.'); return false;">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                     
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="web-projects-more reveal">
+            <a href="https://github.com/Seznu20/" target="_blank" class="btn btn-secondary">
+                View all on GitHub →
+            </a>
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     TECHNICAL SKILLS  (auto-scrolling marquee, like the reference video)
+     Replace your whole old <section id="skills"> ... </section> with this block.
+     Everything (HTML + CSS + JS) is self-contained here.
+     Edit the percentage in style="--lvl:90%" and the number beside it.
+========================================================= -->
+
+<section id="skills" class="section section-alt">
+
+    <div class="container">
+
+        <div class="skills-title reveal">
+            <h2>My Skills</h2>
+            <span class="skills-title-line"></span>
+        </div>
+
+        <div class="skills-marquee reveal">
+
+            <!-- ROW 1 : moves left  (AI / Deep Learning) -->
+            <div class="skill-row">
+                <div class="skill-chip"><h4>Python</h4><div class="skill-bar"><i style="--lvl:90%"></i></div><small>90%</small></div>
+                <div class="skill-chip"><h4>PyTorch</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>TensorFlow</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+                <div class="skill-chip"><h4>Keras</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+                <div class="skill-chip"><h4>CNN</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>U-Net</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>Attention Mechanisms</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+            </div>
+
+            <!-- ROW 2 : moves right (Languages / Web / Tools) -->
+            <div class="skill-row reverse">
+                <div class="skill-chip"><h4>C</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+                <div class="skill-chip"><h4>C++</h4><div class="skill-bar"><i style="--lvl:75%"></i></div><small>75%</small></div>
+                <div class="skill-chip"><h4>JavaScript</h4><div class="skill-bar"><i style="--lvl:70%"></i></div><small>70%</small></div>
+                <div class="skill-chip"><h4>SQL</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+                <div class="skill-chip"><h4>MySQL</h4><div class="skill-bar"><i style="--lvl:80%"></i></div><small>80%</small></div>
+                <div class="skill-chip"><h4>Oracle</h4><div class="skill-bar"><i style="--lvl:70%"></i></div><small>70%</small></div>
+                <div class="skill-chip"><h4>HTML5</h4><div class="skill-bar"><i style="--lvl:90%"></i></div><small>90%</small></div>
+                <div class="skill-chip"><h4>CSS3</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>Tailwind CSS</h4><div class="skill-bar"><i style="--lvl:75%"></i></div><small>75%</small></div>
+                <div class="skill-chip"><h4>PHP</h4><div class="skill-bar"><i style="--lvl:70%"></i></div><small>70%</small></div>
+                <div class="skill-chip"><h4>Flask</h4><div class="skill-bar"><i style="--lvl:75%"></i></div><small>75%</small></div>
+                <div class="skill-chip"><h4>Git</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>GitHub</h4><div class="skill-bar"><i style="--lvl:85%"></i></div><small>85%</small></div>
+                <div class="skill-chip"><h4>VS Code</h4><div class="skill-bar"><i style="--lvl:90%"></i></div><small>90%</small></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-number">
+                08-CONTACT
+            </p>
+
+            <h2>
+                Get in
+                <span class="gradient-text">Touch.</span>
+            </h2>
+
+            <p>
+                Whether it's a research idea, collaboration,
+                technical project or simply a conversation
+                about AI-feel free to reach out.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid reveal">
+
+            <!-- CONTACT INFO -->
+
+            <div class="contact-info">
+
+                <a class="contact-info-card"
+                   href="mailto:seznutabassum20@gmail.com">
+                    <span class="contact-info-icon">✉</span>
+                    <span class="contact-info-text">
+                        <span class="contact-info-label">Email</span>
+                        <span class="contact-info-value">seznutabassum20@gmail.com</span>
+                    </span>
+                </a>
+
+                <a class="contact-info-card"
+                   href="https://github.com/Seznu20/" target="_blank">
+                    <span class="contact-info-icon"><i class="fa-solid fa-phone-volume"></i></span>
+                    <span class="contact-info-text">
+                        <span class="contact-info-label">Phone Number</span>
+                        <span class="contact-info-value">01778454248</span>
+                    </span>
+                </a>
+
+                <a class="contact-info-card"
+                    href="https://www.google.com/maps" target="_blank">
+                    <span class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></span>
+                    <span class="contact-info-text">
+                        <span class="contact-info-label">Location</span>
+                        <span class="contact-info-value">Pahartali,Baro Quater,chiattagon,Bangladesh</span>
+                    </span>
+                </a>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form-card">
+                <form class="contact-form"
+                    action="https://formsubmit.co/seznutabassum20@gmail.com" method="POST">
+
+    <!-- Email subject -->
+                    <input type="hidden" name="_subject" value="New message from your portfolio site">
+
+    <!-- Email template -->
+                    <input type="hidden" name="_template" value="table">
+
+    <!-- Spam protection -->
+                    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none">
+                        <div class="form-row">
+
+                            <input type="text" name="first_name" placeholder="First Name" required>
+
+                            <input type="text" name="last_name" placeholder="Last Name" required>
+
+                        </div>
+
+                    <input type="email" name="email" placeholder="Your Email" required>
+
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn-primary contact-btn">Send Message<span>↗</span></button>
+
+                </form>
+                
+
+
+
+
+            </div>
+
+        </div>
+        
+                <div class="contact-divider reveal">
+            <span>or</span>
+        </div>
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=seznutabassum20@gmail.com"
+           class="btn btn-secondary contact-btn contact-btn-centered reveal">
+            Get In Touch
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-logo">
+         Seznu<span>.</span>
+        </div>
+
+        <p>
+            Designed & built with curiosity.
+        </p>
+
+        <div class="about-profile-socials">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=seznutabassum20@gmail.com" target="_blank" class="about-social-btn" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://github.com/Seznu20/" target="_blank" class="about-social-btn" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/seznu-tabussum-8b4a7a335/" target="_blank" class="about-social-btn" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+        </div>
+
+     
+    </div>
+
+</footer>
+
+
+
+<div class="cert-modal-overlay" id="certModalOverlay">
+
+    <div class="cert-modal">
+
+        <button type="button" class="cert-modal-close" aria-label="Close certificate" id="certModalCloseBtn">
+            &times;
+        </button>
+
+        <p class="cert-modal-title" id="certModalTitle">Certificate</p>
+
+        <img alt="Certificate" id="certModalImage">
+
+        <div class="cert-modal-fallback" id="certModalFallback">
+            Certificate image not found. Add the image file to your
+            project folder to display it here.
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+    /* =========================================================
+       SCROLL PROGRESS BAR + NAVBAR SCROLLED STATE
+    ========================================================= */
+
+    const progressBar =
+        document.getElementById("progress");
+
+    const navbarEl =
+        document.getElementById("navbar");
+
+    function updateProgressAndNavbar() {
+
+        const scrollTop =
+            window.scrollY || document.documentElement.scrollTop;
+
+        const docHeight =
+            document.documentElement.scrollHeight - window.innerHeight;
+
+        const scrolled =
+            docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+        if (progressBar) {
+            progressBar.style.width = scrolled + "%";
+        }
+
+        if (navbarEl) {
+            navbarEl.classList.toggle("scrolled", scrollTop > 20);
+        }
+
+    }
+
+    window.addEventListener("scroll", updateProgressAndNavbar);
+    window.addEventListener("resize", updateProgressAndNavbar);
+    updateProgressAndNavbar();
+
+
+    /* Scroll reveal */
+
+    const revealElements =
+        document.querySelectorAll(".reveal");
+
+    const revealObserver =
+        new IntersectionObserver(
+            (entries) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("visible");
+
+                    }
+
+                });
+
+            },
+            {
+                threshold: 0.12
+            }
+        );
+
+    revealElements.forEach(element => {
+        revealObserver.observe(element);
+    });
+
+
+    /* Navbar active link */
+
+    const sections =
+        document.querySelectorAll("section[id]");
+
+    const navLinks =
+        document.querySelectorAll(".nav-link");
+
+    window.addEventListener("scroll", () => {
+
+        let current = "";
+
+        sections.forEach(section => {
+
+            const sectionTop =
+                section.offsetTop - 180;
+
+            if (window.scrollY >= sectionTop) {
+                current = section.getAttribute("id");
+            }
+
+        });
+
+        navLinks.forEach(link => {
+
+            link.classList.remove("active");
+
+            if (
+                link.getAttribute("href") === "#" + current
+            ) {
+                link.classList.add("active");
+            }
+
+        });
+
+    });
+
+
+    /* =========================================================
+       MOBILE 3-DOT NAVIGATION
+    ========================================================= */
+
+    const menuToggle =
+        document.getElementById("menuToggle");
+
+    const mobileNav =
+        document.querySelector(".nav-links");
+
+
+    menuToggle.addEventListener("click", () => {
+
+        mobileNav.classList.toggle("show");
+
+    });
+
+
+    /* Close menu after clicking a navigation item */
+
+    navLinks.forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            mobileNav.classList.remove("show");
+
+        });
+
+    });
+
+
+    /* =========================================================
+       ACTIVITY FILTER (All / Certification / Volunteer / Hackathon)
+    ========================================================= */
+
+    const filterButtons =
+        document.querySelectorAll(".filter-btn");
+
+    const activityItems =
+        document.querySelectorAll("#activitiesTimeline .timeline-item");
+
+    const activitiesEmptyMsg =
+        document.getElementById("activitiesEmpty");
+
+    function applyActivityFilter(filter) {
+
+        let visibleCount = 0;
+
+        activityItems.forEach(item => {
+
+            const category = item.getAttribute("data-category");
+
+            const matches =
+                filter === "all" || category === filter;
+
+            item.classList.toggle("filtered-out", !matches);
+
+            if (matches) {
+                visibleCount++;
+            }
+
+        });
+
+        if (activitiesEmptyMsg) {
+            activitiesEmptyMsg.classList.toggle("show", visibleCount === 0);
+        }
+
+    }
+
+    filterButtons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            applyActivityFilter(button.getAttribute("data-filter"));
+
+        });
+
+    });
+
+
+    /* =========================================================
+       CERTIFICATE MODAL
+    ========================================================= */
+
+    const certModalOverlay =
+        document.getElementById("certModalOverlay");
+
+    const certModalImage =
+        document.getElementById("certModalImage");
+
+    const certModalTitle =
+        document.getElementById("certModalTitle");
+
+    const certModalFallback =
+        document.getElementById("certModalFallback");
+
+    function openCertificate(src, title) {
+
+        certModalImage.onload = function () {
+            certModalImage.style.display = "block";
+            certModalFallback.style.display = "none";
+        };
+
+        certModalImage.onerror = function () {
+            certModalImage.style.display = "none";
+            certModalFallback.style.display = "flex";
+        };
+
+        certModalImage.style.display = "none";
+        certModalFallback.style.display = "none";
+
+        certModalImage.src = src;
+        certModalTitle.textContent = title || "Certificate";
+
+        certModalOverlay.classList.add("show");
+
+        document.body.style.overflow = "hidden";
+
+    }
+
+    function closeCertificate() {
+
+        certModalOverlay.classList.remove("show");
+
+        document.body.style.overflow = "";
+
+    }
+
+    document.addEventListener("keydown", (e) => {
+
+        if (e.key === "Escape") {
+            closeCertificate();
+        }
+
+    });
+
+    /* Open modal: every button with data-cert */
+
+    const certButtons =
+        document.querySelectorAll(".cert-btn");
+
+    certButtons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const src = button.getAttribute("data-cert");
+            const title = button.getAttribute("data-title");
+
+            openCertificate(src, title);
+
+        });
+
+    });
+
+    /* Close modal: close button + clicking outside the card */
+
+    const certModalCloseBtn =
+        document.getElementById("certModalCloseBtn");
+
+    if (certModalCloseBtn) {
+        certModalCloseBtn.addEventListener("click", closeCertificate);
+    }
+
+    certModalOverlay.addEventListener("click", function (e) {
+
+        if (e.target === certModalOverlay) {
+            closeCertificate();
+        }
+
+    });
+
+
+    /* Smooth mouse glow */
+
+    document.addEventListener("mousemove", (e) => {
+
+        document.documentElement.style.setProperty(
+            "--mouse-x",
+            `${e.clientX}px`
+        );
+
+        document.documentElement.style.setProperty(
+            "--mouse-y",
+            `${e.clientY}px`
+        );
+
+    });
+    
+
+    /* Skills marquee: duplicate chips so the loop is seamless */
+    (function () {
+
+        function buildSkillRows() {
+
+            document.querySelectorAll("#skills .skill-row").forEach(function (row) {
+
+                if (row.dataset.built) return;
+
+                const originals = Array.from(row.children);
+                const setWidth = row.scrollWidth;
+
+                if (!setWidth) return;
+
+                const copies = Math.ceil(window.innerWidth / setWidth) + 1;
+
+                for (let i = 0; i < copies; i++) {
+                    originals.forEach(function (chip) {
+                        const clone = chip.cloneNode(true);
+                        clone.setAttribute("aria-hidden", "true");
+                        row.appendChild(clone);
+                    });
+                }
+
+                row.style.setProperty("--shift", setWidth + "px");
+                row.style.animationDuration = (setWidth / 45) + "s";
+                row.dataset.built = "1";
+
+            });
+
+        }
+
+        window.addEventListener("load", buildSkillRows);
+
+    })();
+    /* Co-curricular: alternate cards left / right (also after filter click) */
+    (function () {
+
+        function alternateTimeline() {
+
+            const visible = Array.from(
+                document.querySelectorAll("#activitiesTimeline .timeline-item")
+            ).filter(function (item) {
+                return !item.classList.contains("filtered-out");
+            });
+
+            visible.forEach(function (item, index) {
+                item.classList.toggle("tl-left", index % 2 === 0);
+                item.classList.toggle("tl-right", index % 2 === 1);
+            });
+
+        }
+
+        alternateTimeline();
+
+        document.querySelectorAll(".filter-btn").forEach(function (btn) {
+            btn.addEventListener("click", alternateTimeline);
+        });
+
+    })();
+
+    /* Paper progress rings: animate when visible */
+    (function () {
+
+        const rings = document.querySelectorAll(".paper-progress");
+
+        const ringObserver = new IntersectionObserver((entries) => {
+
+            entries.forEach(entry => {
+
+                if (!entry.isIntersecting) return;
+
+                const box   = entry.target;
+                const value = parseInt(box.dataset.progress, 10) || 0;
+                const fg    = box.querySelector(".ring-fg");
+                const text  = box.querySelector(".ring-text");
+
+                fg.style.strokeDashoffset = 100 - value;
+
+                let current = 0;
+                const step = Math.max(1, Math.round(value / 60));
+                const timer = setInterval(() => {
+                    current = Math.min(current + step, value);
+                    text.textContent = current + "%";
+                    if (current >= value) clearInterval(timer);
+                }, 25);
+
+                ringObserver.unobserve(box);
+
+            });
+
+        }, { threshold: 0.4 });
+
+        rings.forEach(r => ringObserver.observe(r));
+
+    })();
+
+</script>
+
+</body>
+</html>
